@@ -1,0 +1,22 @@
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    color: #BCF390;
+    margin-left: 50px;
+}
+
+.phoneContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.phoneIcon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.businessHours {
+    margin-left: 5px;
+    margin-top: 5px;
+}

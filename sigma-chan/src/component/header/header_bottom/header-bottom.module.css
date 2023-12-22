@@ -1,0 +1,68 @@
+.headerBottom {
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8%;
+    width: 100%;
+}
+
+.topMenu li {
+    position: relative;
+    float: left;
+}
+
+.topMenu li a {
+    text-transform: uppercase;
+    cursor: none;
+    padding: 15px;
+    font-weight: bold;
+    color: #BCF390;
+    font-size: 16px;
+    display: block;
+    transition: .5s;
+}
+
+.topMenu li a:hover {
+    background: #BCF390;
+    color: black;
+}
+
+.topMenu li span:hover {
+    background: #BCF390;
+    color: black;
+}
+
+.subMenu {
+    position: absolute;
+    z-index: 1;
+    background: #333;
+    transform-origin: 0 0;
+    transform: rotateX(-90deg);
+    transition: .3s linear;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.topMenu li:hover>.subMenu {
+    opacity: 1;
+    visibility: visible;
+    transform: rotateX(0deg);
+}
+
+.subMenu li {
+    position: relative;
+}
+
+.subMenu li span {
+    text-transform: uppercase;
+    cursor: none;
+    padding: 15px;
+    font-weight: bold;
+    color: #BCF390;
+    font-size: 16px;
+    display: block;
+    transition: .5s;
+}

@@ -1,0 +1,21 @@
+.logoImageL {
+    width: 150px;
+}
+
+.logoContainer {
+    display: flex;
+    transition: .5s;
+    align-items: center;
+    cursor: none;
+}
+
+.logoContainer h1 {
+    align-self: center;
+    z-index: 1;
+    color: #BCF390;
+    font-size: 32px;
+}
+
+.logoContainer:hover {
+    transform: scale(1.2);
+}

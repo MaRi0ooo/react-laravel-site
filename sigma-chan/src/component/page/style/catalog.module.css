@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 0 -35px 40px 2px rgba(0, 0, 0, 0.25);
+}
+
+.sidebarTitle {
+    font-size: 18px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sidebarContent {
+    margin-top: 10px;
+}
+
+.navSidebar {
+    list-style: none;
+}
+
+.navSidebar li {
+    color: rgb(189, 189, 189);
+    width: 100%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    cursor: none;
+    transition: .5s;
+}
+
+.navSidebar ul li:hover {
+    color: black;
+}
+
+.catalog {
+    width: 75%;
+    padding: 25px;
+}
+
+.content {
+    width: 100%;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .catalog {
+        width: 100%;
+    }
+
+    .collection {
+        margin-left: 0;
+    }
+}

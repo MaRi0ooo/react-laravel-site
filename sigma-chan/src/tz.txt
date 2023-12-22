@@ -1,0 +1,37 @@
+component ->
+    header ->
+        header_top ->
+            info
+        header_middle ->
+            logo
+            search
+            cart
+        header_bottom ->
+            menu
+    main ->
+        content ->
+            slider_home
+            carousel_brand
+            carousel_product
+            tabs_product
+            cart_product
+        sidebar ->
+            menu_category
+            baner
+    footer ->
+        logo
+        menu_footer
+        social
+page ->
+    home
+    contact
+    delivery/payment
+    cardProduct
+    category
+    cart
+elements ->
+    img
+    button
+    form
+images
+fonts

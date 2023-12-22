@@ -1,0 +1,127 @@
+.cartContainer {
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, 10%);
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.19) 0px -3px 5px;
+}
+
+.cartHeader {
+    color: #BCF390;
+    height: 100px;
+    background-color: gray;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../../../images/torsGigaCart.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.trashButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 10px;
+    height: 48px;
+    cursor: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 3px solid #333;
+    transition: background-color .5s, border .5s;
+}
+
+.trashButton img {
+    margin-right: 10px;
+}
+
+.trashButton span {
+    color: #333;
+}
+
+.trashButton:hover {
+    background: #333;
+    border: 3px solid #BCF390;
+}
+
+.trashButton:hover span {
+    color: #BCF390;
+}
+
+.productItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.productItem img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.cartProduct {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cartProduct>img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.orderButton {
+    color: #333;
+    padding: 10px;
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-self: flex-end;
+    background: lightgray;
+    border: 3px solid #333;
+    width: 100%;
+    cursor: none;
+    height: 50px;
+    transition: .5s;
+}
+
+.orderButton:hover {
+    color: #BCF390;
+    background-color: #333;
+    border: 3px solid #BCF390;
+}
+
+.cartFooter {
+    color: #BCF390;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../../../images/legGigaCart.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cartProductPrice {
+    text-align: center;
+}
+
+.cartSubTotal {
+    margin-left: 25px;
+    width: 10000px;
+}

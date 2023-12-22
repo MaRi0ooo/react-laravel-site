@@ -1,0 +1,133 @@
+.productContainer {
+    width: 60%;
+    height: 460px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    position: relative;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.productImage {
+    float: left;
+}
+
+.productImage img {
+    height: 459px;
+}
+
+.productInfo {
+    margin: 0;
+    padding-top: 50px;
+}
+
+.productInfo h4 {
+    font-size: 18px;
+    margin: 0;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.productInfo h1 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.productPrice {
+    margin-top: 40px;
+}
+
+.productCounter {
+    margin-top: 40px;
+    display: flex;
+    width: fit-content;
+    background: lightgray;
+}
+
+.productCounter input {
+    width: 50px;
+    font-size: 32px;
+    border: 3px solid #333;
+    border-left: 0;
+    border-right: 0;
+    cursor: none;
+    text-align: center;
+    background: lightgray;
+    color: #333;
+    appearance: none;
+    outline: 0;
+}
+
+.productCounter span {
+    text-align: center;
+    display: block;
+    font-size: 28px;
+    width: 40px;
+    cursor: none;
+    color: #333;
+    user-select: none;
+    transition: .5s;
+}
+
+.productCounter span:hover {
+    color: #BCF390;
+    background: #333;
+}
+
+.down {
+    border: 3px solid #333;
+    border-right: 0;
+}
+
+.up {
+    border: 3px solid #333;
+    border-left: 0;
+}
+
+.productButtons {
+    margin-top: 10px;
+}
+
+.buyButton {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: lightgray;
+    border: 3px solid #333;
+    width: 40%;
+    height: 60px;
+    cursor: none;
+    transition: .5s;
+}
+
+.buyButton:hover {
+    background: #333;
+    border: 3px solid #BCF390;
+    color: #BCF390;
+}
+
+.cartButton {
+    margin-left: 5px;
+    cursor: none;
+    width: 6%;
+    height: 60px;
+    position: absolute;
+    background: lightgray;
+    border: 3px solid #333;
+    transition: .5s;
+}
+
+.cartButton span img {
+    width: 42px;
+    height: 42px;
+}
+
+.cartButton:hover {
+    background: #333;
+    border: 3px solid #BCF390;
+}

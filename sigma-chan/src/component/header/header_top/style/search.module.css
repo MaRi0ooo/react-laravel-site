@@ -1,0 +1,41 @@
+.searchBar {
+    width: 100%;
+    height: 50px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBar form {
+    background: white;
+    width: 400px;
+    height: 55px;
+    display: flex;
+}
+
+.searchBar form input {
+    flex: 1;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+}
+
+.searchBar form button {
+    background: #BCF390;
+    color: black;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: none;
+    font-size: 22px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.searchBar form button:hover {
+    background: #333;
+    color: #BCF390;
+}
