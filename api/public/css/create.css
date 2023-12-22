@@ -1,0 +1,84 @@
+.create-container {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+    width: 96%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: #333;
+    box-shadow: 0 0 20px #ffffff73;
+}
+
+.create-header {
+    padding: 20px 30px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #ecf0f1;
+}
+
+.create-input-block {
+    padding: 10px;
+}
+
+#in_stock,
+#out_of_stock {
+    width: fit-content;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.create-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ecf0f1;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #ecf0f1;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addProductButton {
+    background-color: #f39c12;
+    color: #ecf0f1;
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+
+.addProductButton:hover {
+    background-color: #d68910;
+}
