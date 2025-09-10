@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sigma-chan/static/css/main.1d01f123.css",
-    "main.js": "/sigma-chan/static/js/main.64090459.js",
-    "static/js/988.c2514833.chunk.js": "/sigma-chan/static/js/988.c2514833.chunk.js",
+    "main.css": "/sigma-chan/static/css/main.7f5e4086.css",
+    "main.js": "/sigma-chan/static/js/main.33b2a1b4.js",
+    "static/js/511.91c8f55c.chunk.js": "/sigma-chan/static/js/511.91c8f55c.chunk.js",
     "static/media/sliderImg4.png": "/sigma-chan/static/media/sliderImg4.a1dcbe1791b4672b735a.png",
     "static/media/sliderImg2.jpg": "/sigma-chan/static/media/sliderImg2.de22ba1decc0fe66fce7.jpg",
     "static/media/sliderImg1.jpg": "/sigma-chan/static/media/sliderImg1.a399537155e23b20da0b.jpg",
@@ -16,12 +16,12 @@
     "static/media/lindedin-grey.png": "/sigma-chan/static/media/lindedin-grey.bcc9c969986ccdb6a90e.png",
     "static/media/facebook-grey.png": "/sigma-chan/static/media/facebook-grey.a63771a31bb0a3d64e4e.png",
     "index.html": "/sigma-chan/index.html",
-    "main.1d01f123.css.map": "/sigma-chan/static/css/main.1d01f123.css.map",
-    "main.64090459.js.map": "/sigma-chan/static/js/main.64090459.js.map",
-    "988.c2514833.chunk.js.map": "/sigma-chan/static/js/988.c2514833.chunk.js.map"
+    "main.7f5e4086.css.map": "/sigma-chan/static/css/main.7f5e4086.css.map",
+    "main.33b2a1b4.js.map": "/sigma-chan/static/js/main.33b2a1b4.js.map",
+    "511.91c8f55c.chunk.js.map": "/sigma-chan/static/js/511.91c8f55c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d01f123.css",
-    "static/js/main.64090459.js"
+    "static/css/main.7f5e4086.css",
+    "static/js/main.33b2a1b4.js"
   ]
 }
