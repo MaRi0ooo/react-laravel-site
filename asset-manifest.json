@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sigma-chan/static/css/main.1d01f123.css",
+    "main.js": "/sigma-chan/static/js/main.64090459.js",
+    "static/js/988.c2514833.chunk.js": "/sigma-chan/static/js/988.c2514833.chunk.js",
+    "static/media/sliderImg4.png": "/sigma-chan/static/media/sliderImg4.a1dcbe1791b4672b735a.png",
+    "static/media/sliderImg2.jpg": "/sigma-chan/static/media/sliderImg2.de22ba1decc0fe66fce7.jpg",
+    "static/media/sliderImg1.jpg": "/sigma-chan/static/media/sliderImg1.a399537155e23b20da0b.jpg",
+    "static/media/sliderImg3.jpg": "/sigma-chan/static/media/sliderImg3.2c972d8484f692c3e07a.jpg",
+    "static/media/torsGigaCart.png": "/sigma-chan/static/media/torsGigaCart.ef4b46fbb9012db253aa.png",
+    "static/media/legGigaCart.png": "/sigma-chan/static/media/legGigaCart.3c19f98b4ce32fb49fee.png",
+    "static/media/logoR.png": "/sigma-chan/static/media/logoR.10930089c89e5e2c28e0.png",
+    "static/media/logoL.png": "/sigma-chan/static/media/logoL.082ef61c0d9968b969a9.png",
+    "static/media/gaza.png": "/sigma-chan/static/media/gaza.d4d72e2540c300969478.png",
+    "static/media/instagram-grey.png": "/sigma-chan/static/media/instagram-grey.df05161b5ed4fa8a71cd.png",
+    "static/media/lindedin-grey.png": "/sigma-chan/static/media/lindedin-grey.bcc9c969986ccdb6a90e.png",
+    "static/media/facebook-grey.png": "/sigma-chan/static/media/facebook-grey.a63771a31bb0a3d64e4e.png",
+    "index.html": "/sigma-chan/index.html",
+    "main.1d01f123.css.map": "/sigma-chan/static/css/main.1d01f123.css.map",
+    "main.64090459.js.map": "/sigma-chan/static/js/main.64090459.js.map",
+    "988.c2514833.chunk.js.map": "/sigma-chan/static/js/988.c2514833.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d01f123.css",
+    "static/js/main.64090459.js"
+  ]
+}
